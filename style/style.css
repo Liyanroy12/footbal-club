@@ -155,7 +155,61 @@ button img {
     margin-left: 4%;
     margin-top: 2%;
 }
+/* Copa amirica section */
+.copa-amirica-highlite-section{
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.copa-amiraka-content{
+    max-width: 40%;
+    margin-top: 6%;
+}
+.copa-amiraka-content h2{
+    font-size: 2rem;
+    line-height: 45px;
+    margin-bottom: 0;
+    font-weight: 700;
+}
+.copa-amiraka-content p{
+    color: rgb(108, 108, 108);
+    font-size: 1rem;
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+.copa-amiraka-content button{
+    margin-top: 4%;
+}
+.copa-amirica-image{
+    max-width: 50%;
+}
+.copa-amirica-image img{
+    max-width: 100%;
+}
 
+/* Footer section desing is hear */
+.footer-section{
+    max-width: 40%;
+    margin: 0 auto;
+    margin-top: 12%;
+}
+.footer-image img{
+    max-width: 100%;
+}
+.footer-icon{
+    margin-left: 25%;
+}
+.footer-icon img{
+    padding: 10px;
+    max-width: 10%;
+}
+.copy-section{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-left: 20%;
+}
 @media screen and (max-width: 576px) {
     ul li a {
         display: none;
@@ -199,5 +253,31 @@ button img {
     }
     .player{
         margin-top: 2%;
+    }
+    .copa-amirica-highlite-section{
+        flex-direction: column;
+        max-width: 80%;
+        margin: 0 auto;
+    }
+    .copa-amiraka-content{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    .copa-amirica-image{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    .footer-section{
+        max-width: 60%;
+        margin: 0 auto;
+        margin-top: 10%;
+    }
+    .footer-icon img{
+        max-width: 15%;
+        padding: 5px;
+    }
+    .copy-section{
+        font-size: 0.8rem;
     }
 }
